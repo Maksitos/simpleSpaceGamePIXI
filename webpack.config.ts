@@ -1,8 +1,8 @@
 import path from 'path';
-import webpack from 'webpack';
 import 'webpack-dev-server';
 import { fileURLToPath } from "url";
 import HtmlWebpackPlugin from 'html-webpack-plugin';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -31,11 +31,12 @@ export default(env: EnvVariables) => {
         output: {
             filename: '[name].[contenthash].js',
             path: path.resolve(__dirname, 'build'),
+            // publicPath: '/simpleSpaceGamePIXI/',
             clean: true
         },
         plugins: [
             new HtmlWebpackPlugin({template: path.resolve(__dirname, 'public', 'index.html'),}),
-            new webpack.ProgressPlugin(),
+            new CopyWebpackPlugin({patterns: [{ from: "public", to:"", globOptions: { ignore: ["**/index.html"] } }]})
         ],
         devServer: {
             port: 3000,

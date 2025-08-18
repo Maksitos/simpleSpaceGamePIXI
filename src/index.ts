@@ -9,7 +9,7 @@ import {createAsteroid, asteroids, createBoss} from './classes/enemys'
 import {getRandomInt, getDistance} from './common/utilFuncs'
 import * as texts from './common/texts'
 import {createExplosionAnim} from './anims/explosion'
-
+console.log('start')
 export const app = new PIXI.Application();
 await app.init({ 
     width: settings.game_width, 
@@ -21,7 +21,12 @@ await app.init({
 });
 document.body.appendChild(app.canvas);
 for (const value of Object.values(textures.assets)) {
-    await PIXI.Assets.load(value)
+    console.log(value)
+    await PIXI.Assets.load(value).then(() => {
+        console.log(`Загружено: ${value}`);
+    }).catch(err => {
+        console.error(`Ошибка при загрузке ${value}:`, err);
+    });
 }
 PIXI.Assets.addBundle('fonts', [
     { alias: 'FascinateRegular', src: 'assets/font/FascinateRegular.ttf' },
