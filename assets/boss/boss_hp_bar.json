@@ -1,0 +1,14 @@
+{"frames":{"boss_hp_bar1.png":{"frame":{"x":0,"y":0,"w":42,"h":7},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":42,"h":7},"sourceSize":{"w":42,"h":7}},
+           "boss_hp_bar2.png":{"frame":{"x":48,"y":0,"w":42,"h":7},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":42,"h":7},"sourceSize":{"w":42,"h":7}},
+            "boss_hp_bar3.png":{"frame":{"x":96,"y":0,"w":42,"h":7},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":42,"h":7},"sourceSize":{"w":42,"h":7}},
+            "boss_hp_bar4.png":{"frame":{"x":144,"y":0,"w":42,"h":7},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":42,"h":7},"sourceSize":{"w":42,"h":7}},
+            "boss_hp_bar5.png":{"frame":{"x":192,"y":0,"w":42,"h":7},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":42,"h":7},"sourceSize":{"w":42,"h":7}}},
+"meta":{"app":"https://www.leshylabs.com/apps/sstool/","version":"Leshy SpriteSheet Tool v0.8.4","image":"boss_hp_bar.png","size":{"w":234,"h":7},"scale":1},
+"animations": {"boss_hp_bar": [
+                    "boss_hp_bar1.png",
+                    "boss_hp_bar2.png",
+                    "boss_hp_bar3.png",
+                    "boss_hp_bar4.png",
+                    "boss_hp_bar5.png"
+    ]}
+}
