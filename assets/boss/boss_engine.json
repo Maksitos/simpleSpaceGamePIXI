@@ -3,7 +3,7 @@
     "sprite2.png":{"frame":{"x":19,"y":1,"w":11,"h":20},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":11,"h":20},"sourceSize":{"w":11,"h":20}},
     "sprite3.png":{"frame":{"x":35,"y":2,"w":11,"h":19},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":11,"h":19},"sourceSize":{"w":11,"h":19}},
     "sprite4.png":{"frame":{"x":52,"y":3,"w":11,"h":18},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":11,"h":18},"sourceSize":{"w":11,"h":18}}},
-    "meta":{"app":"https://www.leshylabs.com/apps/sstool/","version":"Leshy SpriteSheet Tool v0.8.4","image":"boss_engine.PNG","size":{"w":66,"h":22},"scale":1},
+    "meta":{"app":"https://www.leshylabs.com/apps/sstool/","version":"Leshy SpriteSheet Tool v0.8.4","image":"boss_engine.png","size":{"w":66,"h":22},"scale":1},
     "animations": {"boss_engine": [
                     "sprite1.png",
                     "sprite2.png",
