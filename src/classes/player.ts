@@ -67,6 +67,7 @@ export class Player extends Base.BaseUnit implements Base.Shooter {
     }
     onRestart() {
         this.container.alpha = 1;
+        this.hitpoints = settings.base_player_hp
     }
 }
 
